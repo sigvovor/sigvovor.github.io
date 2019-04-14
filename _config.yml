@@ -1,0 +1,45 @@
+# Site settings
+title_left    : "Foo"
+title_right   : "Bar"
+description   : ""
+keywords      : ""
+url           : https://sigvovor.github.io
+baseurl       : ""
+cover         : ""
+
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false
+disqus_shortname  : ""
+postshare_enabled : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed
+
+# Author settings
+author:
+  name     : "Sigurðr"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
