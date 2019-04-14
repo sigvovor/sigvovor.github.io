@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Foo"
 title_right   : "Bar"
-description   : ""
+description   : "%"
 keywords      : ""
 url           : https://sigvovor.github.io
 baseurl       : ""
