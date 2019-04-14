@@ -14,13 +14,13 @@ At the the time of writing, cherrytree 0.38.8 is the latest version.
 http://www.giuspen.com/software/cherrytree-0.38.8.tar.xz
 ```
 
-Unzip cherrytree by using the following commands:
+Unzip cherrytree by using the following commands
 
 ```
 tar -xzvf cherrytree-0.38.8.tar.xz
 ```
 
-And install the following dependencies that are required to run on a Mac OSX.
+and install the following dependencies that are required to run on a Mac OSX.
 
 ```
 brew install pygtk
