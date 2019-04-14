@@ -1,6 +1,6 @@
 When conducting mobile application penetration tests, many pentesters or security analysts will come across various tools using Frida [[^1]].
 
-I have made one too many mistake in the past of using the wrong _frida-server_ version that was incompatible with the frida version that was being utilised.
+I have made one too many mistakes in the past of using the wrong _frida-server_ version that was incompatible with the frida version that was being utilised.
 
 Here is a little short script to synchronise the same Frida versions and has been tailored to download frida-servers specific to iOS and Android pentests. 
 
