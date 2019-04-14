@@ -10,15 +10,20 @@ Head over to this link and download cherrytree's source from [here](https://www.
 
 At the the time of writing, cherrytree 0.38.8 is the latest version.
 
-`http://www.giuspen.com/software/cherrytree-0.38.8.tar.xz`
+```
+http://www.giuspen.com/software/cherrytree-0.38.8.tar.xz
+```
 
-Unzip it cherrytree-0.38.8.tar.xz
+Unzip cherrytree by using the following commands:
 
-`tar -xzvf cherrytree-0.38.8.tar.xz`
+```
+tar -xzvf cherrytree-0.38.8.tar.xz
+```
 
 And install the following dependencies that are required to run on a Mac OSX.
 
-```brew install pygtk
+```
+brew install pygtk
 brew install gtk-mac-integration
 brew install pygtksourceview
 brew install dbus
@@ -30,7 +35,9 @@ pip install chardet
 
 Launch your terminal program of choice and enter the cherrytree folder. To launch cherrytree, type the following command:
 
-`./Cherrytree`
+```
+./Cherrytree
+```
 
 ***
 
