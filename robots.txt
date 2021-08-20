@@ -1,2 +1,2 @@
-User-agent: *
+User-Agent: ia_archiver
 Disallow: /
